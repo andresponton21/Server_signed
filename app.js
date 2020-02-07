@@ -7,7 +7,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const Web3 = require('web3'); 
-var Tx = require('ethereumjs-tx');
+var Tx = require('ethereumjs-tx').Transaction;
 const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 web3.eth.defaultAccount = web3.eth.accounts[0];
 
