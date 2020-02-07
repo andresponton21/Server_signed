@@ -36,7 +36,7 @@ var TestContract = new web3.eth.Contract([
 //var Test = TestContract.at('0x63cBf3B2119C68f130d3E9d593a3d5927C59c41C');
 var account = "0xA20B75d1B7F1b2bC22A3c0D2e61Cdb3daCbedB3E";
 
-var privateKey = new Buffer("bc5909a35c6d282703db296fc8f9fbe3ee5b1c74bcfa7c1e4bc4dd8c6fbed83c");
+var privateKey = new Buffer("bc5909a35c6d282703db296fc8f9fbe3ee5b1c74bcfa7c1e4bc4dd8c6fbed83c", 'hex');
 
 
 
